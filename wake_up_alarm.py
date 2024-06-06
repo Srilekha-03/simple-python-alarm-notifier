@@ -8,7 +8,7 @@ pygame.mixer.init()
 
 toaster = ToastNotifier()
 
-datetimeString = input("enter date and time in thsi format dd/mm/yy hh/mm/ss")
+datetimeString = input("enter date and time in this format dd/mm/yyyy hh:mm:ss")
 today = datetime.datetime.today()
 target = datetime.datetime.strptime(datetimeString, "%d/%m/%Y %H:%M:%S")
 totalTime = target - today
